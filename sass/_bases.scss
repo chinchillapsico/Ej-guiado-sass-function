@@ -1,0 +1,16 @@
+.caja_1{
+	@extend %button;
+	@include condicion(orange);
+}
+.caja_2{
+	@extend %button;
+	@include condicion(blue);
+}
+.caja_3{
+	@extend %button;
+	@include condicion(red);
+}
+.caja_4{
+	@extend %button;
+	@include condicion(green);
+}
